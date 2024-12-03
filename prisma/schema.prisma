@@ -48,7 +48,7 @@ model User {
   name String
   email String @unique
   password String
-  courses Course[]
+  // courses Course[]
 
-@@index([courseId])
+// @@index([courseId])
 }
